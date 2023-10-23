@@ -17,10 +17,10 @@ def main():
     f = myFibonacci(20)
 
     print('{:>10} {:>10}'.format('n', 'Fib'))
-    i= 0
-    for n in f.getFibonacci():
-        i += 1
-        print('{:>10} {:>10}'.format(i-1, n))
+    
+    for i, n in enumerate(f.getFibonacci()):
+        
+        print('{:>10} {:>10}'.format(i, n))
 
 if __name__== '__main__':
     main()
