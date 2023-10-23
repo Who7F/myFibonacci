@@ -5,7 +5,6 @@ class myFibonacci:
         self.setFibonacci()
           
     def setFibonacci(self):
-        self.Fibonacci = []
         self.Fibonacci.append(0)
         self.Fibonacci.append(1)
         for n in range(2, self.Range + 1):
