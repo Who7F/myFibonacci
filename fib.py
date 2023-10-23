@@ -18,8 +18,7 @@ def main():
 
     print('{:>10} {:>10}'.format('n', 'Fib'))
     
-    for i, n in enumerate(f.getFibonacci()):
-        
+    for i, n in enumerate(f.getFibonacci()):       
         print('{:>10} {:>10}'.format(i, n))
 
 if __name__== '__main__':
